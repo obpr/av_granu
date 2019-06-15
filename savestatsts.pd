@@ -1,0 +1,11 @@
+#N canvas 521 50 450 300 10;
+#X floatatom 275 35 5 0 0 0 - #0-n-in #0-n-out, f 5;
+#X obj 282 82 loadbang;
+#X msg 282 147 143;
+#X obj 297 125 prepend set;
+#X obj 297 103 r \$1;
+#X obj 282 169 s send_\$1;
+#X connect 1 0 2 0;
+#X connect 2 0 5 0;
+#X connect 3 0 2 0;
+#X connect 4 0 3 0;

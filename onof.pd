@@ -1,0 +1,163 @@
+#N canvas 2192 873 907 941 10;
+#X obj 152 537;
+#X obj 604 264 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 540 141 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 416 506 outlet~;
+#X obj 661 701 inlet;
+#X text 327 636 trigger;
+#X obj 331 689 sel 0;
+#X obj 470 705 t b;
+#X obj 392 814 f \$1;
+#X obj 392 839 pack 0 \$2;
+#X obj 718 701 inlet;
+#X obj 676 832 del \$2;
+#X obj 684 979 line~;
+#X obj 700 855 f \$4;
+#X obj 727 929 pack 0 \$3;
+#X obj 780 701 inlet;
+#X obj 842 701 inlet;
+#X obj 915 700 inlet;
+#X msg 331 720 stop;
+#X obj 838 856 pack 0 \$5;
+#X text 661 679 level;
+#X obj 727 905 * \$1;
+#X obj 684 1004 outlet~;
+#X text 328 928 and pack with;
+#X text 329 948 attack time;
+#X text 257 676 if zero;
+#X text 258 693 release;
+#X text 238 710 and cancel;
+#X text 269 727 decay;
+#X text 510 822 on attack \, set a;
+#X text 504 855 recall sustain value;
+#X text 541 928 pack with decay time;
+#X text 831 882 on release ramp;
+#X text 832 899 back to zero;
+#X obj 688 879 * 0.01;
+#X text 273 1117 Objects such as "f" and "pack" can be given dollar
+sign arguments to initialize their contents from adsr's creation arguments.
+Inlets are supplied to change them on the fly.;
+#X text 239 552 ADSR ENVELOPE;
+#X text 714 679 attack;
+#X text 781 678 decay;
+#X text 835 679 sustain;
+#X text 912 679 release;
+#X text 428 621 attack;
+#X obj 430 642 moses;
+#X obj 420 672 t b b;
+#X msg 354 840 0;
+#X text 246 823 optionally;
+#X text 236 841 bash to zero;
+#X text 251 796 ATTACK:;
+#X text 275 1027 When you send this patch a positive trigger it schedules
+a line~ to do an attack and decay \, and if zero \, it starts the release
+ramp.;
+#X text 721 1179 Updated for Pd version 0.37;
+#X text 481 639 test for negative trigger;
+#X text 479 663 if so \, zero;
+#X text 480 679 the output;
+#X text 504 715 in any case;
+#X text 529 905 multiply by peak level;
+#X text 506 836 delay for sustain;
+#X text 502 878 convert from percent;
+#X text 381 890 ... then;
+#X text 329 909 recall peak level;
+#X text 665 663 peak;
+#X text 507 699 ... do this;
+#X text 273 1079 Negative triggers cause the output to jump to zero
+and then attack (instead of attacking from the current location).;
+#X text 434 551 Arguments: level \, attack time \, decay time \, sustain
+level \, release time. A \, D \, and R are in msec and S is in percent.
+This patch is used as an abstraction in various examples.;
+#X floatatom 650 725 5 0 0 0 - - -, f 5;
+#X floatatom 734 737 5 0 0 0 - - -, f 5;
+#X floatatom 788 737 5 0 0 0 - - -, f 5;
+#X floatatom 845 740 5 0 0 0 - - -, f 5;
+#X floatatom 923 750 5 0 0 0 - - -, f 5;
+#X obj 602 289 float;
+#X obj 650 285 + 1;
+#X obj 603 378 nbx 5 14 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10
+-262144 -1 -1 1 256;
+#X obj 606 425 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 635 425 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 606 399 sel 0 1 2 3 4;
+#X obj 658 426 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 687 426 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 707 426 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 736 426 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 396 35 notein;
+#X obj 604 326 mod 2;
+#X obj 657 3 notein;
+#X floatatom 657 34 5 0 0 0 - - -, f 5;
+#X floatatom 723 140 5 0 0 0 - - -, f 5;
+#X obj 721 88 * 1;
+#X obj 721 66 + 1;
+#X obj 672 73 spigot-toggle_red;
+#X obj 740 25 < 16;
+#X obj 722 113 - 1;
+#X obj 632 73 spigot-toggle_red;
+#X connect 1 0 68 0;
+#X connect 4 0 8 1;
+#X connect 4 0 21 1;
+#X connect 4 0 63 0;
+#X connect 6 0 18 0;
+#X connect 6 0 19 0;
+#X connect 6 1 42 0;
+#X connect 7 0 8 0;
+#X connect 7 0 11 0;
+#X connect 8 0 9 0;
+#X connect 9 0 12 0;
+#X connect 10 0 9 1;
+#X connect 10 0 11 1;
+#X connect 10 0 64 0;
+#X connect 11 0 13 0;
+#X connect 12 0 3 0;
+#X connect 13 0 34 0;
+#X connect 14 0 12 0;
+#X connect 15 0 14 1;
+#X connect 15 0 65 0;
+#X connect 16 0 13 1;
+#X connect 16 0 66 0;
+#X connect 17 0 19 1;
+#X connect 17 0 67 0;
+#X connect 18 0 11 0;
+#X connect 19 0 12 0;
+#X connect 21 0 14 0;
+#X connect 34 0 21 0;
+#X connect 42 0 43 0;
+#X connect 42 1 7 0;
+#X connect 43 0 7 0;
+#X connect 43 1 44 0;
+#X connect 44 0 12 0;
+#X connect 68 0 69 0;
+#X connect 68 0 79 0;
+#X connect 69 0 68 1;
+#X connect 70 0 73 0;
+#X connect 73 0 71 0;
+#X connect 73 1 72 0;
+#X connect 73 2 74 0;
+#X connect 73 3 75 0;
+#X connect 73 4 76 0;
+#X connect 73 5 77 0;
+#X connect 78 1 1 0;
+#X connect 78 1 6 0;
+#X connect 79 0 70 0;
+#X connect 80 0 81 0;
+#X connect 80 1 88 0;
+#X connect 81 0 86 0;
+#X connect 81 0 85 0;
+#X connect 83 0 87 0;
+#X connect 84 0 83 0;
+#X connect 85 0 84 0;
+#X connect 86 0 83 1;
+#X connect 86 0 85 1;
+#X connect 86 0 88 1;
+#X connect 87 0 82 0;
