@@ -1,37 +1,37 @@
-# AVGRANU
+### AVGRANU
 
 Play music with video samples.
 Realize live montages and generative installations.
-Choose sounds and vidéos and build interactions between 
-- Two audio/video tracks 
-- Sound analyse modules,  
-- Time stresh modules 
-- Synthetizers 
-- Step Sequencers
+Choose sounds and vidéos and build interactions between
+- Two audio/video tracks (right:A left:B)
+- (1) Sound analyse modules
+- (2) Time stresh modules
+- (3) Step Sequencers
+- (4) Synthetizers
 
 (https://obpr.balik.network)
 
 
 
-# Step sequencers 
+### Step sequencers
+(3)
+Two Step sequencers called A and B generating number sequence according to
 
-Two Step sequencers generating number sequence
-according to
 
-
-- A number sequence of time
-- A number sequence of itération
-- A number sequence of progressivity
-- A number sequence to be added or subtract
+- (5) A number sequence of time
+- (6) A number sequence of itération
+- (7) A number sequence of progressivity
+- (8) A number sequence to be added or subtract
 
 Apply the datas to:
-- The position of the loop (4)
-- The Pitch and the speed simultaneously (5)
-- The speed only (5) to the pitch only (6)
-- Synthetizers (7)
+- (9) The position of the loop
+- (10) The Pitch and the speed simultaneously
+- (11) The speed only
+- (12) to the pitch only
+- (13) Synthetizers
 
 # `$` = value, each step got a value
- 
+
 # [=IT]
 - Play all `$` of time (all `$` of Step sequencerT)
 at each value of the general Step Sequencer (top line) ... allT $ / G $
@@ -69,7 +69,7 @@ Move linearly on the sequence.
 Turn this step mute
 
 
-## Selectors and modulation
+### Selectors and modulations
 
 Choose position(s) to the starting point of the loop
 - Add value to this position(s)
@@ -77,20 +77,21 @@ Choose position(s) to the starting point of the loop
 - Apply enveloppe to sound track and opacity to video layer
 
 
-## Gate
+### Gate
+(14)
 Set the position of the playhead where to start the playback loop
 
 # [raw]
-raw data  A or B                 
+raw data  A or B
 
 # [A@]
 Make a loop on the fly and change position with Step sequencers
 
 # [@re]
-Call back the loop made in [A@]* 
+Call back the loop made in [A@]*
 
 # *When released, read what is after the loop chronologically
-or with the [@A] mode go back where you were  
+or with the [@A] mode go back where you were
 at your last [@re]
 
 # [>ø]
@@ -106,14 +107,14 @@ Auto-receive On/off step and send enveloppe to
 the sound selected.
 
 # [Trg]
-On/off step 
+On/off step
 
 # [Bng]
 send enveloppe to
 the sound selected
 
 # [<<<]
-Send on/off step and set enveloppe from sources selected in 
+Send on/off step and set enveloppe from sources selected in
 s&p, speed, or pitch
 
 # [ø]
@@ -121,24 +122,24 @@ Trigger the Step sequencer [A] or [B] as selected in
 s&p, speed, or pitch
 
 
-## Audio modulations
+### Audio modulations
 
-- Speed and pitch (50 = 0= stop, 75= go forward , 25= go back)
-- Speed only (50 = 0= stop, 75= go forward , 25= go back)
-- Pitch only (0 = default)
+- (15) Speed and pitch 50 = 0= stop, 75= go forward , 25= go back
+- (16) Speed only 50 = 0= stop, 75= go forward , 25= go back
+- (17) Pitch only 0 = default
 
 Left ’s 2 columns
 - select data source
 
 # [bck]
-Back to default $ after selection released 
+Back to default $ after selection released
 
-# [O] 
+# [O]
 Go back to default $
 # slider
 set value
 
-Choose data source 
+Choose data source
 # [A], [B], [‘’a] or [‘’b]
 
 Right’s 2 columns
@@ -147,16 +148,16 @@ Right’s 2 columns
 # [44]
 choose between 44100/88200 hz
 
-# [O] 
+# [O]
 Go back to default $
 slider: set  modulation value
 
-Choose data source 
+Choose data source
 # [A], [B], [‘’a] or [‘’b]
 
 
-## Time stretching until drone
-
+### Time stretching until drone
+(18)
 Advance your number sequence, pattern, over the entire sample
 
 Make the pattern you are making with Stepseq A or B sliding along the loop lenght more a less rapidly.
@@ -164,12 +165,12 @@ Make the pattern you are making with Stepseq A or B sliding along the loop lengh
 - Select exit point
 - Select strecthing value
 
-Analyse silences and attacks in the  audio signal of sampler or synthetizer
-- Send the values as 
-# [‘’a] or [‘’b] 
+Analyse silences and attacks in the audio signal of sampler or synthetizer
+- Send the values as
+# [‘’a] or [‘’b]
 Select a source
 # [A]
-track AV left 
+track AV left
 # [C]
 upper synthetiser in purewave-synth
 # [sctch]
@@ -183,8 +184,8 @@ numbers sequence
 number of step$ 1 to 5
 
 
-## Files selection
-
+### Files selection
+(19)
 Select audio and vidéo loop
 - Call bank or single audio and vidéo files.
 
@@ -204,8 +205,8 @@ under the speed of Step sequencer [BB](A) or[ BB1](B)
 - Drop down menu
 
 
-## Video settings
-
+### Video settings
+(20)
 Set video specifications
 - dimension, frame rate, incrustations and image modulations
 
@@ -219,30 +220,14 @@ Set video specifications
 - Contrast
 - Saturation
 - Motion blur
-
-On/off
-Receive On/off
-Invert color
-Audio control opacity
- 
- 
- # trop-simple
-## Un projet simple
-
-- Alors tu fais le malin!?
-- C'est dur? Tu veux dire duRE!?
-- D'écrire 
-- Comme çà ?
+- On/off
+- Receive On/off
+- Invert color
+- Audio control opacity
 
 
-## Écrire un manuel en Markdown
 
-- C'est pas
-- Si compliqué
 
-## Tout le monde peut participer
-
-- Parce que c'est trop simple
 
 # La syntaxe ?
 
@@ -253,4 +238,3 @@ Audio control opacity
 - Il faut cliquer sur [le stylo là haut pour éditer la page](https://github.com/smonff/trop-simple/edit/master/README.md)
 - Il ne faut pas hésiter à regarder [le code source](https://raw.githubusercontent.com/smonff/trop-simple/master/README.md)
 - Il est possible décrire [des livres entiers en utilisant ce principe](https://github.com/progit/progit2/tree/master/book)
-
