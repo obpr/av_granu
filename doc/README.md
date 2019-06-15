@@ -38,7 +38,7 @@ at each value of the general Step Sequencer (top line) ... allT `$ / G $`
 
 ### `[≠IT]`
 - Change steps on the step sequencer (s) in accordance with a fixed $ of time (1000) by default).
-- + Column still on the right: go to the value gradually (1000) by default)
+- Column still on the right: go to the value gradually (1000) by default)
 
 ### `[%T]`
 - Divides time by the `$` from Step Sequencer `IT` ... `T` `$% IT`
