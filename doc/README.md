@@ -160,7 +160,7 @@ the sound selected.
 On/off step
 
 ### `[Bng]`
-Send enveloppe to the sound selected
+Send enveloppe to the sound selected (16)
 
 ### `[<<<]`
 Send on/off step and set enveloppe from sources selected in
@@ -173,9 +173,9 @@ s&p, speed, or pitch
 
 ## Audio modulations
 
-- (15) Speed and pitch 50 = 0= stop, 75= go forward , 25= go back
-- (16) Speed only 50 = 0= stop, 75= go forward , 25= go back
-- (17) Pitch only 0 = default
+- (10) Speed and pitch 50 = 0= stop, 75= go forward , 25= go back
+- (11) Speed only 50 = 0= stop, 75= go forward , 25= go back
+- (12) Pitch only 0 = default
 
 ### Left’s 2 columns:
 
@@ -212,8 +212,7 @@ Choose between `44100`/`88200` hz
 
 
 ## Time stretching until drone
-
-(18)
+(2)   
 Advance your number sequence, pattern, over the entire sample.
 
 Make the pattern you are making with Stepseq `A` or `B` sliding along the loop lenght more a less rapidly:
@@ -223,7 +222,7 @@ Make the pattern you are making with Stepseq `A` or `B` sliding along the loop l
 - Select stretching value
 
 ## Audio analysis
-(24)
+(1)
 
 Analyze silences and attacks in the audio signal of sampler or synthesizer. Send the values as `[‘’a]` or `[‘’b]`
 
@@ -247,7 +246,7 @@ Suite de valeurs opposées `0-100`, `25-75`, etc.
 
 
 ## Files selection
-(19)
+(14)
 
 Select audio and vidéo loop. Call bank or single audio and video files:
 
@@ -268,7 +267,7 @@ under the speed of Step sequencer `[BB](A)` or `[ BB1](B)`
 
 
 ## Video settings
-(20)
+(15)
 
 Set video specifications. Dimension, frame rate, incrustations and image modulations
 
