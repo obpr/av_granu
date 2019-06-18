@@ -289,6 +289,7 @@ Set video specifications. Dimension, frame rate, incrustations and image modulat
 ### La syntaxe ?
 
 - Elle est décrite [dans les spécifications de Markdown](https://daringfireball.net/projects/markdown/syntax) (y'en a pour 25 minutes de lecture)
+- TOC made with [nGitHubTOC](https://imthenachoman.github.io/nGitHubTOC/)
 
 ### Comment participer ?
 
