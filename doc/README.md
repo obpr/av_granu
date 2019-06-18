@@ -12,7 +12,6 @@ Choose sounds and vidéos and build interactions between:
 (https://obpr.balik.network)
 
 ## Step sequencers
-(3)
 
 Two Step sequencers called A and B generating number sequence according to:
 
