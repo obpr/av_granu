@@ -1,3 +1,4 @@
+
 # AV_GRANU
 
 Play music with video samples.
@@ -10,6 +11,60 @@ Choose sounds and vidéos and build interactions between:
 - (4) Synthetizers
 
 (https://obpr.balik.network)
+
+
+- [AV_GRANU](#av_granu)
+  - [Step sequencers](#step-sequencers)
+    - [`[=IT]`](#it)
+    - [`[≠IT]`](#it-1)
+    - [`[%T]`](#t)
+    - [`[/Tb/]`](#tb)
+    - [`[A]`](#a)
+    - [`[next]`](#next)
+    - [`[ø]`](#)
+    - [`[><]`](#-1)
+    - [`[>>]`](#-2)
+    - [`[O]`](#o)
+  - [Selectors and modulations](#selectors-and-modulations)
+    - [Gate](#gate)
+    - [`[raw]`](#raw)
+    - [`[A@]`](#a-1)
+    - [`[@re]`](#re)
+    - [`[>ø]`](#-3)
+    - [`[loc]`](#loc)
+    - [ `[Trg]` and `[Bng]`](#-trg-and-bng)
+    - [`[Trg]`](#trg)
+    - [`[Bng]`](#bng)
+    - [`[<<<]`](#-4)
+    - [`[ø]`](#-5)
+  - [Audio modulations](#audio-modulations)
+    - [Left’s 2 columns:](#lefts-2-columns)
+      - [Select data source](#select-data-source)
+        - [`[bck]`](#bck)
+        - [[O]](#o-1)
+        - [slider](#slider)
+      - [Choose data source](#choose-data-source)
+        - [`[A]`, `[B]`, `[‘’a]` or `[‘’b]`](#a-b-a-or-b)
+    - [Right’s 2 columns](#rights-2-columns)
+      - [Module data from the left ’s 2 columns](#module-data-from-the-left-s-2-columns)
+        - [`[44]`](#44)
+        - [`[O]`](#o-2)
+      - [Choose data source](#choose-data-source-1)
+        - [`[A]`, `[B]`, `[‘’a]` or `[‘’b]`](#a-b-a-or-b-1)
+  - [Time stretching until drone](#time-stretching-until-drone)
+  - [Audio analysis](#audio-analysis)
+    - [Select a source](#select-a-source)
+      - [`[A]`](#a-2)
+      - [`[C]`](#c)
+      - [`Mode scratch` / `[sctch]`](#mode-scratch--sctch)
+      - [Sensibility](#sensibility)
+      - [Progressivity](#progressivity)
+      - [[stp]](#stp)
+  - [Files selection](#files-selection)
+  - [Video settings](#video-settings)
+  - [Conventions employées dans la documentation](#conventions-employes-dans-la-documentation)
+    - [La syntaxe ?](#la-syntaxe-)
+    - [Comment participer ?](#comment-participer-)
 
 ## Step sequencers
 
