@@ -67,6 +67,7 @@ Choose sounds and vidéos and build interactions between:
     - [Comment participer ?](#comment-participer-)
 
 ## Step sequencers
+(3)
 
 Two Step sequencers called A and B generating number sequence according to:
 
@@ -222,6 +223,7 @@ Make the pattern you are making with Stepseq `A` or `B` sliding along the loop l
 - Select stretching value
 
 ## Audio analysis
+(24)
 
 Analyze silences and attacks in the audio signal of sampler or synthesizer. Send the values as `[‘’a]` or `[‘’b]`
 
