@@ -1,6 +1,11 @@
 # AV_GRANU
 
-![Alt text]/avgra_audioanlalyse.jpeg "Optional title")
+
+![foo](avgra_audioanlalyse.jpeg)
+
+
+
+![Alt text](images/avgra_audioanlalyse.jpeg)
 ![Alt text]
 ![avgra_audioanlalyse](images/avgra_audioanlalyse.jpeg)
 Play music with video samples.
