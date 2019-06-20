@@ -1,4 +1,3 @@
-
 # AV_GRANU
 
 Play music with video samples.
@@ -9,6 +8,8 @@ Choose sounds and vidéos and build interactions between:
 - (2) Time stresh modules
 - (3) Step Sequencers
 - (4) Synthetizers
+
+![un logiciel](/img/pancho.png "Un logiciel de son pour chien")
 
 (https://obpr.balik.network)
 
@@ -212,7 +213,7 @@ Choose between `44100`/`88200` hz
 
 
 ## Time stretching until drone
-(2)   
+(2)
 Advance your number sequence, pattern, over the entire sample.
 
 Make the pattern you are making with Stepseq `A` or `B` sliding along the loop lenght more a less rapidly:
