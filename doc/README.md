@@ -1,7 +1,7 @@
 # AV_GRANU
 
 
-![foo](avgra_audioanlalyse.jpeg)
+![foo](avgra_audioanlalyse.png)
 
 
 
