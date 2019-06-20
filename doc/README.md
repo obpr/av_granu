@@ -1,13 +1,8 @@
 # AV_GRANU
 
 
-![foo](avgra_audioanlalyse.png)
 
 
-
-![Alt text](images/avgra_audioanlalyse.jpeg)
-![Alt text]
-![avgra_audioanlalyse](images/avgra_audioanlalyse.jpeg)
 Play music with video samples.
 Realize live montages and generative installations.
 Choose sounds and vidéos and build interactions between:
