@@ -12,7 +12,6 @@ Choose sounds and vidéos and build interactions between:
 - (3) Step Sequencers
 - (4) Synthetizers
 
-![un logiciel](/img/pancho.png "Un logiciel de son pour chien")
 
 (https://obpr.balik.network)
 
