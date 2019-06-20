@@ -2,7 +2,7 @@
 
 ![Alt text]/avgra_audioanlalyse.jpeg "Optional title")
 ![Alt text]
-![GitHub avgra_audioanlalyse](images/avgra_audioanlalyse.jpeg)
+![avgra_audioanlalyse](images/avgra_audioanlalyse.jpeg)
 Play music with video samples.
 Realize live montages and generative installations.
 Choose sounds and vidéos and build interactions between:
