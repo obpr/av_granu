@@ -7,7 +7,7 @@ Realize live montages and generative installations.
   Use Touch osc and this template 4LAYERS_AV_SEK.tosc
   
 # Want to know more?
-FILES/ FOLDER AV.PDF
+DOWNLOAD >> FILES/ FOLDER AV.PDF
 GRANULAR AV.PDF
 SCRATCH.PDF
 SMPL.PDF
