@@ -11,7 +11,7 @@ DOWNLOAD >> FILES/ FOLDER AV.PDF
 GRANULAR AV.PDF
 SCRATCH.PDF
 SMPL.PDF
-Take a look at [our not up to date but excellent documentation](/doc/README.md)! 
+
 
 https://obpr.balik.network
 
